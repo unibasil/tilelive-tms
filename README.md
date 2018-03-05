@@ -1,4 +1,6 @@
 # tilelive-tms
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Funibasil%2Ftilelive-tms.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Funibasil%2Ftilelive-tms?ref=badge_shield)
+
 
 Reads tiles from a TMS service.
 
@@ -21,3 +23,7 @@ Example using public GeoServer instance ("natural earth" layer from demo.opengeo
 Example using local GeoServer instance ("osm" layer covering the Barcelona area):
 
     node node_modules/tilelive-tms/node_modules/tilelive/bin/tilelive-copy tms:http://localhost:8080/geoserver/gwc/service/tms/1.0.0/osm@EPSG%3A900913@png8/{z}/{x}/{y}.png mbtiles://./osm.mbtiles --bounds=1.8959314626397201,41.24712051859019,2.3140591893595457,41.53442029978945 --minzoom=0 --maxzoom=16
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Funibasil%2Ftilelive-tms.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Funibasil%2Ftilelive-tms?ref=badge_large)
